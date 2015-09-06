@@ -1,0 +1,3 @@
+[submodule "abluent-awesome"]
+	path = abluent-awesome
+	url = git@github.com:everslick/abluent-awesome.git
