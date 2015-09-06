@@ -1,22 +1,71 @@
 # Abluent desktop for Linux
 
-vimpager
-xterm
-conky
-awesome
-mpv
-rox
+Abluent is a collection of configuration files, scripts and package lists
+for Arch Linux. It's focus is to make low power netbooks usful and fun
+again, even if they are already a few years old. Abluent is currently
+developed, tested and used on a Smasung NC10 netbook with a 1,6GHz Atom
+N270 CPU, Intel 945 GPU, 2GB Ram and 4GB SSD.
 
-gxditview
-gxmessage  
+Installation
+------------
 
-gnome-calculator
-netsurf
-hexchat
-audacious
-evince
-abiword
-gnumeric
-aumix
+```
+git clone --recursive git@github.com:everslick/abluent.git
+cd abluent
+./install.sh
+```
 
-pacman -Ss
+Updating
+--------
+
+```
+cd abluent
+git submodule foreach --recursive git pull origin master
+./install.sh
+```
+
+Packages
+--------
+
+required:
+    awesome
+    lain
+
+recomended:
+    xcompmgr
+    conky
+    xterm
+    xdg_menu
+    xbacklight
+    amixer
+    xrandr
+    xlock
+    scrot
+
+nice:
+    vim
+    7z
+    unrar
+    bzip2
+    nmap
+    iptraf-ng
+    vimpager
+    audacious
+    gpicview
+    netsurf
+    aumix
+    mpv
+    rox
+    gtk2
+    gtk3
+    lxappearance    
+
+optional:
+    vim-fugitive
+    chromium
+    file-roller
+    gnome-calculator
+    hexchat
+    evince
+    abiword
+    gnumeric
