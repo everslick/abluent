@@ -1,0 +1,16 @@
+[submodule "abluent-gtk"]
+	path = abluent-gtk
+	url = git@github.com:everslick/abluent-gtk.git
+	branch = master
+[submodule "abluent-awesome"]
+	path = abluent-awesome
+	url = git@github.com:everslick/abluent-awesome.git
+	branch = master
+[submodule "abluent-conky"]
+	path = abluent-conky
+	url = git@github.com:everslick/abluent-conky.git
+	branch = master
+[submodule "abluent-audacious"]
+	path = abluent-audacious
+	url = git@github.com:everslick/abluent-audacious.git
+	branch = master
