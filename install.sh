@@ -1,8 +1,13 @@
 #!/bin/bash
 
 echo Starting Abluent installation...
-cd abluent-awesome && install.sh
-cd abluent-conky && install.sh
-cd abluent-gtk && install.sh
-cd abluent-audacious && install.sh
+WD=`pwd`
+cd abluent-awesome   && ./install.sh
+cd $WD
+cd abluent-conky     && ./install.sh
+cd $WD
+cd abluent-gtk       && ./install.sh
+cd $WD
+cd abluent-audacious && ./install.sh
+cd $WD
 echo "Abluent installation complete!"
