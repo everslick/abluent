@@ -47,43 +47,43 @@ Packages
 --------
 
 required:
--awesome
+- awesome
 
 recomended:
--xcompmgr
--conky
--xterm
--xdg_menu
--xbacklight
--amixer
--xrandr
--xlock
--scrot
+- xcompmgr
+- conky
+- xterm
+- xdg_menu
+- xbacklight
+- amixer
+- xrandr
+- xlock
+- scrot
 
 nice:
--vim
--7z
--unrar
--bzip2
--nmap
--iptraf-ng
--vimpager
--audacious
--gpicview
--netsurf
--aumix
--mpv
--rox
--gtk2
--gtk3
--lxappearance-
+- vim
+- 7z
+- unrar
+- bzip2
+- nmap
+- iptraf-ng
+- vimpager
+- audacious
+- gpicview
+- netsurf
+- aumix
+- mpv
+- rox
+- gtk2
+- gtk3
+- lxappearance-
 
 optional:
--vim-fugitive
--chromium
--file-roller
--gnome-calculator
--hexchat
--evince
--abiword
--gnumeric
+- vim-fugitive
+- chromium
+- file-roller
+- gnome-calculator
+- hexchat
+- evince
+- abiword
+- gnumeric
