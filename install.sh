@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PKG="awesome xcompmgr conky xterm archlinux-xdg-menu xorg-xbacklight alsa-utils xorg-xrandr xlockmore scrot"
+PKG="awesome xcompmgr conky xterm archlinux-xdg-menu xorg-xbacklight alsa-utils xorg-xrandr xlockmore scrot audacious gtk-engine-murrine"
 
 pacman -Q $PKG &>/dev/null
 MISSING_DEPENDENCIES=$?
